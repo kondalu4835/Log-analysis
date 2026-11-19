@@ -54,3 +54,4 @@ Python's standard library is enough for `analysis.py`; optionally import the CSV
 
 ## Caveats
 This is a **purpose-built teaching simulation**. It uses synthetic traffic, approximate spans, simplified queue metrics and deliberately planted patterns. The answer key is held separately in `INSTRUCTOR_ANSWER_KEY.md` so instructors can distribute only the data and case brief.
+# Log-analysis
