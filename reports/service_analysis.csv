@@ -1,0 +1,9 @@
+service,log_events,error_level_events,error_code_events,http_error_events,affected_error_traces
+api-gateway,12000,1147,1735,1735,1735
+auth-service,8750,510,912,912,711
+inventory-service,4536,418,418,418,418
+order-service,4244,332,332,332,332
+payment-service,2464,192,192,192,192
+cart-service,4571,35,35,35,35
+catalog-service,3451,28,28,28,28
+notification-worker,2338,19,85,19,85

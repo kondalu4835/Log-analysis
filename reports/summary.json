@@ -1,0 +1,48 @@
+{
+  "total_requests": 12000,
+  "failed_requests_5xx": 1147,
+  "failure_percentage_5xx": 9.5583,
+  "log_records": 42354,
+  "metric_records": 576,
+  "latency_overall_ms": {
+    "request_count": 12000.0,
+    "mean_ms": 313.57116666666667,
+    "median_ms": 76.0,
+    "p95_ms": 1921.0499999999993,
+    "p99_ms": 4115.01,
+    "max_ms": 6322.0
+  },
+  "error_timeline_baseline": {
+    "period_start_utc": "2026-11-18T09:00:00+00:00",
+    "period_end_utc_exclusive": "2026-11-18T10:00:00+00:00",
+    "interval_count": 12,
+    "mean_failure_percentage_5xx": 1.6666730667690681,
+    "median_interval_p95_latency_ms": 195.69999999999993
+  },
+  "validation": {
+    "requests": {
+      "rows": 12000,
+      "missing_timestamps": 0,
+      "invalid_statuses": 0,
+      "missing_trace_ids": 0,
+      "duplicate_trace_ids": 0
+    },
+    "application_logs": {
+      "rows": 42354,
+      "missing_timestamps": 0
+    },
+    "metrics": {
+      "rows": 576,
+      "missing_timestamps": 0
+    }
+  },
+  "reports": [
+    "http_status_counts.csv",
+    "errors_by_service.csv",
+    "service_analysis.csv",
+    "latency_by_endpoint.csv",
+    "time_windows.csv",
+    "error_timeline.csv",
+    "latency_overall.csv"
+  ]
+}

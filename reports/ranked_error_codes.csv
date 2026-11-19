@@ -1,0 +1,6 @@
+error_code,error_log_events,affected_traces,services,events
+NULL_CUSTOMER_CONTEXT,920,460,"api-gateway, auth-service","application.exception, http.response"
+INVENTORY_DEADLOCK,387,387,inventory-service,inventory.tx.deadlock
+DB_POOL_EXHAUSTED,622,311,"api-gateway, order-service","db.pool.exhausted, http.response"
+TRANSIENT_FAILURE,394,197,"api-gateway, auth-service, cart-service, catalog-service, inventory-service, notification-worker, order-service, payment-service","application.error, http.response"
+PAYMENT_PROVIDER_TIMEOUT,358,179,"api-gateway, payment-service","http.response, payment.gateway.timeout"
